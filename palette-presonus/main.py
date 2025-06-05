@@ -45,8 +45,7 @@ def generate_seq_rgb(num1:int, num2:int, count:int) -> list[int]:
 def main():
     result = []
     args = parse_args()
-    color_list = [c.strip() for c in args.palette.split(',')]
-    print(f"Parsed colors: {color_list}")
+    color_list = [c.strip().replace("#", "") for c in args.palette.split(',')]
     for color1, color2 in zip(color_list[::2], color_list[1::2]):
         result.extend(generate_seq_rgb(int(color1, 16), int(color2, 16), args.count))
     sys.stdout.write(generate_output(result))
