@@ -1,0 +1,7 @@
+{
+    "python.condaPath": "/usr/local/anaconda3/envs/daw_utils/bin/python",
+    "python.defaultInterpreterPath": "/usr/local/anaconda3/envs/daw_utils/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.analysis.typeCheckingMode": "standard"
+}
