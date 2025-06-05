@@ -1,8 +1,8 @@
 # Color Palettes
-These are our color palettes for Studio One 7. Studio One doesn't totally honor the colors in our palette. He manhandles and rearranges the lines. So we touch them up after they are import. Be careful before replacing what has been imported.
+These are our color palettes for *Studio One*. *Studio One* doesn't totally honor the colors in our palette. He manhandles and rearranges the lines. Some of the changes aren't so wonderful, so we touch them up after they are imported. Subsequently, be mindful when reimporting palettes into *Studio One*.
 
 ## Importing
-Generate your palette and name it whatever you would like to call it. There are commands below primed with suggested names. Once generated, launch *Studio One 7*. *Studio One 7* treats color palettes like plug-ins. You may drag them over the app and drop them in the browser. I suggest you are explicit with the destination, cuz I don't know where he will put it otherwise.
+Generate your palette and name it whatever you would like to call it. There are commands below primed with suggested names. Once generated, launch *Studio One*. *Studio One 7* treats color palettes like plug-ins. You may drag them over the app and drop them in the browser. I suggest you are explicit with the destination, cuz I don't know where he will put it otherwise.
 
 ## Palettes
 
