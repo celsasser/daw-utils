@@ -6,8 +6,9 @@ Generate your palette and name it whatever you would like to call it. There are 
 
 ## Palettes
 
-### Full Spectrum: Brighter
-| Light Bright | Dark Bright | Dark Matte | Light Matte |
+### Full Spectrum
+*Full Spectrum* covers as much of the visible spectrum as we would like. It does not include red nor orange. It generates a total of 160 colors. That's too much too chose from. So, use it to harvest from.
+| Light Bright | Dark Bright | Dark Muted | Light Muted |
 |------------|----------|------------|----------|
 | #FFFFEA | #FFFF00 | #D6D800 | #E6E6D1 |
 | #F9FFF0 | #A9FF00 | #36B400 | #D2E2C2 |
@@ -24,5 +25,46 @@ Generate your palette and name it whatever you would like to call it. There are 
 
 To generate, run the following in a console and follow the instructions in [Importing](#importing).
 ```
-./palette-presonus/main.py -c 8 -p "#FFFFEF,#FFFF00,#D6D800,#E6E6D1,#F9FFF0,#A9FF00,#36B400,#D2E2C2,#ADFFFB,#00E2D6,#4A9591,#D0E5E4,#BEDFEF,#48A5D1,#5B8FA0,#CEDEE3,#B9BFFF,#2F38EA,#5567B6,#C6CCE7,#E0BCF6,#7935E4,#8061B2,#C8BADE,#E2B9F9,#A729EC,#8F64A7,#CFBDD9,#F4C2F9,#D828EB,#9B58A2,#DBC3DE,#F9C2F0,#EB25CB,#AD64A1,#DCBCD7,#F9B8DD,#ED1791,#B67299,#DCBCCE,#DDDDDD,#8c8c8c,#828282,#2E2E2E" > ~Downloads/Curtis-Spectrum.colorpalette
+./palette-presonus/main.py -c 8 -p "#FFFFEF,#FFFF00,#D6D800,#E6E6D1,#F9FFF0,#A9FF00,#36B400,#D2E2C2,#ADFFFB,#00E2D6,#4A9591,#D0E5E4,#BEDFEF,#48A5D1,#5B8FA0,#CEDEE3,#B9BFFF,#2F38EA,#5567B6,#C6CCE7,#E0BCF6,#7935E4,#8061B2,#C8BADE,#E2B9F9,#A729EC,#8F64A7,#CFBDD9,#F4C2F9,#D828EB,#9B58A2,#DBC3DE,#F9C2F0,#EB25CB,#AD64A1,#DCBCD7,#F9B8DD,#ED1791,#B67299,#DCBCCE,#DDDDDD,#8c8c8c,#828282,#2E2E2E" > ~/Downloads/Curtis-Spectrum.colorpalette
+```
+
+### Partial Spectrum: Bright
+We have selected a subset of the bright colors from [Full Spectrum](#full-spectrum). We are going to generate 4 colors from each pair, for a total of 40 colors.
+| Light | Dark |
+|-----------|----------|
+| #FFFFEA | #d2ac00 |
+| #d6facd | #A9FF00 |
+| #cdfffc | #00E2D6 |
+| #BEDFEF | #48A5D1 |
+| #B9BFFF | #464bb6 |
+| #E0BCF6 | #6a36be |
+| #E2B9F9 | #8c10cf |
+| #F4C2F9 | #ba1bcb |
+| #F9C2F0 | #d317b4 |
+| #e1e1e1 | #6b6b6b |
+
+
+To generate, run the following in a console and follow the instructions in [Importing](#importing).
+```
+./palette-presonus/main.py -c 4 -p "#FFFFEA,#d2ac00,#A9FF00,#d6facd,#cdfffc,#00E2D6,#48A5D1,#BEDFEF,#B9BFFF,#464bb6,#6a36be,#E0BCF6,#E2B9F9,#8c10cf,#ba1bcb,#F4C2F9,#F9C2F0,#d317b4,#6b6b6b,#e1e1e1" > ~/Downloads/Curtis-Bright.colorpalette
+```
+
+### Partial Spectrum: Muted
+We have selected a subset of the muted colors from [Full Spectrum](#full-spectrum). We are going to generate 4 colors from each pair, for a total of 40 colors.
+| Light Muted | Dark Muted |
+|-----------|----------|
+| #e6e6d1 | #a38532 |
+| #D2E2C2 | #01a46d |
+| #bfdbd9 | #449295 |
+| #c1dbe3 | #4f879a |
+| #c6cce7 | #54619c |
+| #C8BADE | #71569c |
+| #e0c9e5 | #79448a |
+| #DCBCD7 | #8f4f84 |
+| #DCBCCE | #8e4870 |
+| #e1e1e1 | #606060 |
+
+To generate, run the following in a console and follow the instructions in [Importing](#importing).
+```
+./palette-presonus/main.py -c 4 -p "#e6e6d1,#a38532,#01a46d,#D2E2C2,#bfdbd9,#449295,#4f879a,#c1dbe3,#c6cce7,#54619c,#71569c,#C8BADE,#e0c9e5,#79448a,#8f4f84,#DCBCD7,#DCBCCE,#8e4870,#606060,#e1e1e1" > ~/Downloads/Curtis-Muted.colorpalette
 ```
