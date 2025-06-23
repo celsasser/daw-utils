@@ -68,3 +68,34 @@ To generate, run the following in a console and follow the instructions in [Impo
 ```
 ./palette-presonus/main.py -c 4 -p "#e6e6d1,#a38532,#01a46d,#D2E2C2,#bfdbd9,#449295,#4f879a,#c1dbe3,#c6cce7,#54619c,#71569c,#C8BADE,#e0c9e5,#79448a,#8f4f84,#DCBCD7,#DCBCCE,#8e4870,#606060,#e1e1e1" > ~/Downloads/Curtis-Muted.colorpalette
 ```
+
+### Partial Spectrum: Tab20b
+This is based on the Seaborn color palette "Tab20b".
+|Number|Color|
+|------|-----|
+| 1 | #4e5083 |
+| 2 | #5254A3 |
+| 3 | #6B6ECF |
+| 4 | #9C9EDE |
+| 5 | #637939 |
+| 6 | #8CA252 |
+| 7 | #B5CF6B |
+| 8 | #CEDB9C |
+| 9 | #8C6D31 |
+| 10 | #bba46b |
+| 11 | #ebca7b |
+| 12 | #e8d6ac |
+| 13 | #824d4d |
+| 14 | #AD494A |
+| 15 | #D6616B |
+| 16 | #E7969C |
+| 17 | #7B4173 |
+| 18 | #A55194 |
+| 19 | #CE6DBD |
+| 20 | #DE9ED6 |
+
+To generate, run the following in a console and follow the instructions in [Importing](#importing). We don't interpolate for this one. We take the colors as they are in the palette. Nonetheless, we still construct it via the CLI to be consistent with the rest of our palettes.
+
+```
+./palette-presonus/main.py -c 2 -p "#4e5083,#5254A3,#6B6ECF,#9C9EDE,#637939,#8CA252,#B5CF6B,#CEDB9C,#8C6D31,#bba46b,#ebca7b,#e8d6ac,#824d4d,#AD494A,#D6616B,#E7969C,#7B4173,#A55194,#CE6DBD,#DE9ED6" > ~/Downloads/Curtis-Tab20.colorpalette
+```
